@@ -42,9 +42,13 @@ Before you begin, make sure you have the following software installed:
 
 Clone the repository and navigate to the project directory:
 ```bash
-git clone https://github.com/insert
+git clone insert github link here
 cd local_ai
 ```
+
+**IMPORTANT NOTE:** Check `.env` and `docker-compose` files, you might need to replace localhost with your server IP address.
+e.g. current .env and docker-compose.yml file will have hsc-12.labs.hpecorp.net
+
 
 Before running the services, you need to set up your environment variables for Supabase following their [self-hosting guide](https://supabase.com/docs/guides/self-hosting/docker#securing-your-services).
 
